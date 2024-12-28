@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container styling */
+.main {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+/* Heading styling */
+.main h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Input and button container */
+.main div:nth-child(2) {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+.main input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Add button styling */
+.main button {
+  padding: 10px 15px;
+  background-color: #5cb85c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.main button:hover {
+  background-color: #4cae4c;
+}
+
+/* Todo list container */
+#AllTodo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Single todo styling */
+.singletodo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Todo name styling */
+.singletodo h2 {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
+
+/* Remove button styling */
+.singletodo button {
+  padding: 5px 10px;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s;
+}
+
+.singletodo button:hover {
+  background-color: #c9302c;
+}
+
+/* Checkbox styling */
+.singletodo input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.completed{
+  text-decoration: line-through;
+}
